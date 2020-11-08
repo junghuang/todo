@@ -1,15 +1,8 @@
-import * as func from '../function.js'
-import actions from './actions.js'
-import mutations from './mutations.js'
-import getters from './getters.js'
-
-const state = func.theme_local.get() || {
-  theme: 'blue'
-}
+import * as func from '@/utils/func'
 
 export default {
-  state,
-  actions,
-  mutations,
-  getters
+  SWITCHTHEME (states, obj) {
+    states.theme = obj.theme
+    func.themeLocal.set(states)
+  }
 }

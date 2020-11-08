@@ -66,7 +66,7 @@ export default {
 }
 </script>
 
-<style lang="less">
+<style lang="scss" rel="stylesheet/scss">
 .dialog {
   position: fixed;
   top: 0;

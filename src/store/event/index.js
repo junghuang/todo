@@ -1,7 +1,7 @@
-import * as func from '../function'
-import actions from './actions.js'
-import mutations from './mutations.js'
-import getters from './getters.js'
+import * as func from '@/utils/func'
+import actions from './actions'
+import mutations from './mutations'
+import getters from './getters'
 
 const state = func.local.get() || {
   event: [],

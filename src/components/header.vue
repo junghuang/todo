@@ -13,7 +13,7 @@ export default {
 }
 </script>
 
-<style lang="less">
+<style lang="scss" rel="stylesheet/scss">
 header {
   position: relative;
   width: 100%;

@@ -1,5 +1,5 @@
-import * as type from './mutations_types.js'
-import * as func from '../function'
+import * as type from './mutations_types'
+import * as func from '@/utils/func'
 
 export default {
   [type.ADDEVENT] (states, obj) {
